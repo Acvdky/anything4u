@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle, #000000, #1a1a1a, #2e2e2e);
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.message, .final-message {
+  display: none;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 10px;
+  color: #ffb6c1; /* Pastel pink */
+}
+
+.final-message {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #87ceeb; /* Pastel blue */
+}
+
+/* Firework particle styles */
+.particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+  border-radius: 50%;
+  animation: firework-explosion 1.5s ease-out forwards;
+  box-shadow: 0 0 8px 2px var(--color);
+}
+
+/* Firework particle animation */
+@keyframes firework-explosion {
+  0% {
+      transform: translate(0, 0) scale(1);
+      opacity: 1;
+  }
+  60% {
+      transform: translate(var(--x), var(--y)) scale(1);
+      opacity: 1;
+  }
+  100% {
+      transform: translate(var(--x), var(--y)) scale(0);
+      opacity: 0;
+  }
+}
