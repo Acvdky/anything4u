@@ -17,9 +17,11 @@ An interactive personal website built using HTML, CSS, and vanilla JavaScript. V
 - JavaScript — interactive messages and particle generation
 
 ## Project Structure
+
 - `index.html` — main webpage structure
-- `SKELE/styles.css` — styling and animations
-- `SKELE/script.js` — JavaScript interactions and particle effects
+- `styles.css` — styling and animations
+- `script.js` — JavaScript interactions and particle effects
+- `README.md` — project documentation
 
 ## Getting Started
 1. Download or clone this repository.
