@@ -3,6 +3,10 @@
 ## Overview
 An interactive personal website built using HTML, CSS, and vanilla JavaScript. Visitors reveal a sequence of messages by clicking the screen, accompanied by animated fireworks-style particle effects.
 
+## Live Demo
+
+[View the Interactive Website](https://acvdky.github.io/anything4u/)
+
 ## Features
 - Progressive message reveals triggered by user clicks
 - JavaScript DOM manipulation and event handling
